@@ -4,6 +4,10 @@ This project investigates whether tabular Q-learning can improve real-time video
 
 The project builds on the queue-flushing approach presented in *Real-Time Video Gets a Fast Lane via Smart Queue Flushing at the Wireless Edge* (IEEE INFOCOM 2026).
 
+## Final Q-learning adjustment
+
+The [final experiment and trained models](experiments/bitrate/tail_deadline/README.md) add a predicted tail-frame deadline miss to the Q-learning state. On 120 fresh fluctuating traces at high bitrate, mixed-rate training achieved 72.15% on-time delivery with the flag and 70.96% with the original state. The fixed threshold reached 78.13%. The average gap narrowed by 1.19 percentage points (paired 95% interval −0.89 to +3.33).
+
 ## Implementation
 
 The Python simulator models a video sender, a finite router queue, and a receiver. Frames arrive at 30 FPS, and available bandwidth follows synthetic traces representing stable conditions, fluctuations, and a sudden capacity drop.
@@ -109,11 +113,11 @@ Delay metrics describe delivered frames. On-time delivery and loss rates use all
 - A/B observation timing, averaging rate, and threshold bounds are assumed parameters.
 - Signaling is immediate, with no RTP/RTCP communication or feedback delay.
 - Frame importance is represented by a binary label, without codec dependencies or decoded video quality.
-- The current evaluation uses one queue capacity, bitrate range, and playback deadline.
+- The original notebook uses one bitrate range. Follow-up experiments vary bitrate while keeping queue capacity and playback deadline fixed.
 
 ## Remaining Work
 
-- Vary video bitrate, queue capacity, and playback deadline.
+- Vary queue capacity and playback deadline.
 - Evaluate sensitivity to the A/B observation window and averaging rate.
 - Compare alternative reward weights.
 - Test longer sessions and real wireless traces.

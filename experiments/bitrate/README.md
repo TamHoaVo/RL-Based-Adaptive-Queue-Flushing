@@ -32,9 +32,9 @@ Single-rate agents train at 1.0×. Mixed-rate agents see 200 episodes at each of
 
 At high load, the paired mixed-minus-single difference was +0.80 pp with importance (joint 95% interval −2.16 to +3.84) and +1.52 pp without (−1.63 to +4.57). At the default bitrate it was −0.27 pp with importance (−1.77 to +1.17). Equivalence at the default bitrate has not been established. The fixed threshold led the best mean Q result by 6.80 pp at high load. FIFO and both adaptive Gecko baselines are in the full summary.
 
-## Interpretation and next adjustment
+## Interpretation and follow-up
 
-Keep the fixed threshold as the primary comparator. It triggers on predicted completion time, which uses remaining queued bits and instantaneous bandwidth. Q-learning currently observes coarse occupancy, head age and bandwidth bins. A targeted next experiment would add a state feature indicating whether predicted completion exceeds the deadline, then compare the original and augmented agents with a separate validation set and fresh final test traces. This is a proposed explanation and follow-up. No causal claim about the source of the threshold advantage follows from this sweep.
+Keep the fixed threshold as the primary comparator. It triggers on predicted completion time, which uses remaining queued bits and instantaneous bandwidth. Q-learning currently observes coarse occupancy, head age and bandwidth bins. A targeted next experiment would add a state feature indicating whether predicted completion exceeds the deadline, then compare the original and augmented agents with a separate validation set and fresh final test traces. The [completed deadline-flag experiment](tail_deadline/README.md) tests this adjustment on fresh traces and reports its remaining gap to the fixed threshold.
 
 ## Design and uncertainty
 
