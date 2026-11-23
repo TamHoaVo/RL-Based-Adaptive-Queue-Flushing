@@ -1,0 +1,193 @@
+experiment,scenario,rate,policy_a,policy_b,metric,a_minus_b,trace_lo,trace_hi,trace_seed_lo,trace_seed_hi
+confirmation,Fluctuating,1.0,single_with,single_without,on_time_pct,0.7748888888888888,0.6173277777777776,0.9477888888888887,-0.8064555555555556,2.5051166666666678
+confirmation,Fluctuating,1.0,single_with,single_without,important_on_time_pct,0.6933333333333334,0.45,0.9566666666666666,-1.21,2.756666666666667
+confirmation,Fluctuating,1.0,single_with,single_without,loss_pct,-0.036666666666666674,-0.0671111111111111,-0.007333333333333366,-0.18356111111111112,0.09377777777777771
+confirmation,Fluctuating,1.0,single_with,single_without,delivered_p95_ms,-1.8600459666666427,-2.24705148912034,-1.4734030340740643,-7.612363562731411,3.78228681449075
+confirmation,Fluctuating,1.0,mixed_with,single_with,on_time_pct,-0.26866666666666666,-0.31333333333333324,-0.2242222222222221,-1.7693499999999989,1.1693777777777767
+confirmation,Fluctuating,1.0,mixed_with,single_with,important_on_time_pct,-0.21333333333333335,-0.33999999999999997,-0.08666666666666663,-2.103416666666667,1.5333333333333334
+confirmation,Fluctuating,1.0,mixed_with,single_with,loss_pct,0.04666666666666668,0.026666666666666672,0.06666666666666668,-0.08800555555555557,0.17911666666666656
+confirmation,Fluctuating,1.0,mixed_with,single_with,delivered_p95_ms,0.7934755185185013,0.5107228506944191,1.0681278198610862,-4.514803808101818,6.3242916393981465
+confirmation,Fluctuating,1.0,mixed_without,single_without,on_time_pct,-0.03777777777777775,-0.16689444444444448,0.1017777777777777,-1.149561111111111,0.9426888888888885
+confirmation,Fluctuating,1.0,mixed_without,single_without,important_on_time_pct,-0.02666666666666667,-0.2333333333333334,0.19666666666666657,-1.2933333333333332,1.1099999999999999
+confirmation,Fluctuating,1.0,mixed_without,single_without,loss_pct,0.06888888888888889,0.04888888888888889,0.0891111111111111,-0.011333333333333329,0.18267222222222204
+confirmation,Fluctuating,1.0,mixed_without,single_without,delivered_p95_ms,0.9201663370370237,0.4262314489814514,1.4167306218518454,-1.6219474488888928,4.333458862592548
+confirmation,Fluctuating,1.0,mixed_with,mixed_without,on_time_pct,0.544,0.4637777777777779,0.6351166666666666,-0.20869444444444443,1.4976055555555539
+confirmation,Fluctuating,1.0,mixed_with,mixed_without,important_on_time_pct,0.5066666666666667,0.38,0.65,-0.42999999999999994,1.6699999999999997
+confirmation,Fluctuating,1.0,mixed_with,mixed_without,loss_pct,-0.05888888888888888,-0.07777777777777779,-0.04022222222222223,-0.16444999999999996,0.012222222222222245
+confirmation,Fluctuating,1.0,mixed_with,mixed_without,delivered_p95_ms,-1.986736785185165,-2.4594467968518314,-1.573257287083307,-5.299005866712929,0.3108618150463006
+confirmation,Fluctuating,1.25,single_with,single_without,on_time_pct,1.853777777777778,1.6426611111111111,2.0737833333333335,-0.6364222222222221,4.75646111111111
+confirmation,Fluctuating,1.25,single_with,single_without,important_on_time_pct,0.9933333333333333,0.73,1.2633333333333334,-1.74675,3.8500833333333326
+confirmation,Fluctuating,1.25,single_with,single_without,loss_pct,-0.20844444444444446,-0.24888888888888888,-0.16933333333333342,-0.5506666666666665,0.07201111111111096
+confirmation,Fluctuating,1.25,single_with,single_without,delivered_p95_ms,-7.843080544444457,-9.310561930787044,-6.437360697361134,-21.379907489212975,2.609146158148177
+confirmation,Fluctuating,1.25,mixed_with,single_with,on_time_pct,0.8022222222222221,0.6286666666666664,0.995783333333333,-2.160316666666667,3.8431777777777776
+confirmation,Fluctuating,1.25,mixed_with,single_with,important_on_time_pct,0.95,0.6566666666666666,1.2633333333333332,-2.2800833333333337,4.010000000000001
+confirmation,Fluctuating,1.25,mixed_with,single_with,loss_pct,0.1351111111111111,0.10133333333333333,0.17044444444444443,-0.11780000000000006,0.3977833333333332
+confirmation,Fluctuating,1.25,mixed_with,single_with,delivered_p95_ms,-6.779297353703708,-8.371202593703709,-5.349445012685176,-24.804352437685218,9.6301330326389
+confirmation,Fluctuating,1.25,mixed_without,single_without,on_time_pct,1.522444444444444,1.2531111111111108,1.8073333333333332,-1.6248111111111105,4.5702888888888875
+confirmation,Fluctuating,1.25,mixed_without,single_without,important_on_time_pct,1.2566666666666666,0.8566666666666668,1.646666666666667,-1.2034166666666666,3.7534166666666655
+confirmation,Fluctuating,1.25,mixed_without,single_without,loss_pct,-0.01799999999999999,-0.055777777777777746,0.019999999999999973,-0.24244444444444435,0.22977777777777775
+confirmation,Fluctuating,1.25,mixed_without,single_without,delivered_p95_ms,-3.6592897574074037,-5.5687270750925935,-1.7191806484259173,-23.144741930416618,15.38667911847222
+confirmation,Fluctuating,1.25,mixed_with,mixed_without,on_time_pct,1.1335555555555554,0.9646611111111112,1.3166666666666667,-1.249333333333333,3.6641166666666645
+confirmation,Fluctuating,1.25,mixed_with,mixed_without,important_on_time_pct,0.6866666666666666,0.4465833333333333,0.9333333333333333,-1.5733333333333335,2.9099999999999993
+confirmation,Fluctuating,1.25,mixed_with,mixed_without,loss_pct,-0.055333333333333345,-0.08733888888888895,-0.021994444444444494,-0.2720000000000001,0.1328888888888889
+confirmation,Fluctuating,1.25,mixed_with,mixed_without,delivered_p95_ms,-10.963088140740762,-13.086658700046334,-8.99217041319445,-26.35554339657408,2.2544260147684723
+pilot,Fluctuating,1.25,single_with,single_without,on_time_pct,3.95,2.6400000000000006,5.296749999999999,-2.193499999999999,11.99675
+pilot,Fluctuating,1.25,single_with,single_without,important_on_time_pct,3.0,1.55,4.35,-2.55,10.4
+pilot,Fluctuating,1.25,single_with,single_without,loss_pct,0.6066666666666668,0.4533333333333334,0.7700000000000001,0.16666666666666674,1.0866666666666667
+pilot,Fluctuating,1.25,single_with,single_without,delivered_p95_ms,-39.93976658333352,-55.616459462500174,-25.173643193750216,-101.72795768750022,11.46853178124963
+recheck,Fluctuating,0.75,single_with,single_without,on_time_pct,-0.7750000000000001,-0.8533333333333335,-0.6983333333333334,-2.887236111111111,0.48334722222222226
+recheck,Fluctuating,0.75,single_with,single_without,important_on_time_pct,0.016666666666666666,-0.1416666666666667,0.175,-0.45,0.35
+recheck,Fluctuating,0.75,single_with,single_without,loss_pct,0.27,0.22222222222222227,0.3177777777777778,0.028333333333333332,0.6416944444444443
+recheck,Fluctuating,0.75,single_with,single_without,delivered_p95_ms,2.8187411666666935,2.349031142013914,3.2801900340278247,-3.065513215509272,11.947282867013945
+recheck,Fluctuating,1.0,single_with,single_without,on_time_pct,-0.315,-0.521666666666667,-0.08054166666666668,-2.829444444444444,1.580013888888889
+recheck,Fluctuating,1.0,single_with,single_without,important_on_time_pct,-0.25833333333333336,-0.5833333333333333,0.08333333333333334,-2.65,1.625
+recheck,Fluctuating,1.0,single_with,single_without,loss_pct,0.21388888888888885,0.17666666666666667,0.2533333333333333,0.004444444444444444,0.5794583333333332
+recheck,Fluctuating,1.0,single_with,single_without,delivered_p95_ms,2.0985968472222107,1.2758863880787046,2.8523503624999784,-4.09033682256946,11.303265390972232
+recheck,Fluctuating,1.25,single_with,single_without,on_time_pct,3.2255555555555557,2.660541666666666,3.810555555555556,-2.6279027777777784,10.326513888888886
+recheck,Fluctuating,1.25,single_with,single_without,important_on_time_pct,1.7666666666666666,1.0500000000000003,2.4833333333333334,-4.400416666666667,8.441874999999996
+recheck,Fluctuating,1.25,single_with,single_without,loss_pct,0.5305555555555557,0.4505416666666667,0.6116666666666667,0.15388888888888888,0.9177777777777777
+recheck,Fluctuating,1.25,single_with,single_without,delivered_p95_ms,-28.708542925925933,-34.58292899444442,-23.154430770833372,-72.80672906990745,13.630330149074092
+training,Fluctuating,0.75,single_with,single_without,on_time_pct,-0.7493333333333331,-0.8353333333333328,-0.6633333333333331,-2.8520333333333325,0.5173333333333335
+training,Fluctuating,0.75,single_with,single_without,important_on_time_pct,0.06,-0.14,0.25,-0.5199999999999999,0.5199999999999999
+training,Fluctuating,0.75,single_with,single_without,loss_pct,0.26133333333333336,0.2053333333333333,0.318,0.0,0.648
+training,Fluctuating,0.75,single_with,single_without,delivered_p95_ms,2.8180160333333104,2.2596041370833064,3.3532662356944085,-3.3342179450000327,12.363378068333308
+training,Fluctuating,0.75,mixed_with,single_with,on_time_pct,2.6719999999999997,2.4173166666666663,2.930666666666667,-0.13668333333333335,5.627399999999998
+training,Fluctuating,0.75,mixed_with,single_with,important_on_time_pct,1.16,0.78,1.55,-0.2,2.77
+training,Fluctuating,0.75,mixed_with,single_with,loss_pct,0.07199999999999998,-0.010666666666666729,0.15600000000000003,-0.37801666666666667,0.4939999999999999
+training,Fluctuating,0.75,mixed_with,single_with,delivered_p95_ms,-10.460831122222194,-11.212387256805528,-9.70721644624996,-21.623464920138918,0.3970605947222432
+training,Fluctuating,0.75,mixed_without,single_without,on_time_pct,1.9253333333333336,1.7266666666666666,2.1273333333333335,-1.8414166666666674,5.718016666666665
+training,Fluctuating,0.75,mixed_without,single_without,important_on_time_pct,1.14,0.8399999999999999,1.46,-0.3399999999999999,2.650249999999996
+training,Fluctuating,0.75,mixed_without,single_without,loss_pct,0.3266666666666666,0.25466666666666665,0.4013333333333334,-0.25001666666666666,0.904033333333333
+training,Fluctuating,0.75,mixed_without,single_without,delivered_p95_ms,-7.670324822222205,-8.125369668333313,-7.2191768438888575,-22.302080801805424,8.678124092916638
+training,Fluctuating,0.75,mixed_with,mixed_without,on_time_pct,-0.0026666666666667993,-0.012000000000000285,0.006666666666666515,-0.05800000000000012,0.05666666666666663
+training,Fluctuating,0.75,mixed_with,mixed_without,important_on_time_pct,0.08,0.0,0.18,0.0,0.25
+training,Fluctuating,0.75,mixed_with,mixed_without,loss_pct,0.0066666666666666576,-1.0658141036401503e-17,0.014666666666666665,-0.04066666666666666,0.052683333333333096
+training,Fluctuating,0.75,mixed_with,mixed_without,delivered_p95_ms,0.027509733333321604,-0.013619476666719347,0.07900934833333748,-0.6308227302778113,0.6330354283333626
+training,Fluctuating,1.0,single_with,single_without,on_time_pct,-0.20333333333333348,-0.40466666666666684,0.019349999999999975,-2.7013333333333334,1.7647166666666656
+training,Fluctuating,1.0,single_with,single_without,important_on_time_pct,-0.29,-0.61,0.030249999999996457,-2.9699999999999998,1.8599999999999999
+training,Fluctuating,1.0,single_with,single_without,loss_pct,0.18999999999999997,0.15133333333333326,0.22933333333333333,-0.0006666666666666714,0.48334999999999995
+training,Fluctuating,1.0,single_with,single_without,delivered_p95_ms,1.0227246111110941,-0.0748925470833477,2.0012374424999675,-6.029754462222226,10.487396453749945
+training,Fluctuating,1.0,mixed_with,single_with,on_time_pct,2.216,2.0246666666666666,2.4120166666666676,-0.6720833333333336,5.1020166666666675
+training,Fluctuating,1.0,mixed_with,single_with,important_on_time_pct,2.35,1.92,2.8,-0.7302499999999998,5.529999999999999
+training,Fluctuating,1.0,mixed_with,single_with,loss_pct,-0.274,-0.3393333333333334,-0.21133333333333323,-0.6293666666666666,0.04199999999999996
+training,Fluctuating,1.0,mixed_with,single_with,delivered_p95_ms,-7.90183132777776,-8.832344013749974,-6.9401207722222065,-18.01257225361113,1.9534962561111238
+training,Fluctuating,1.0,mixed_without,single_without,on_time_pct,2.0613333333333337,1.832,2.3093500000000007,-2.6500166666666676,5.587333333333332
+training,Fluctuating,1.0,mixed_without,single_without,important_on_time_pct,2.09,1.64,2.56,-2.96,5.960000000000001
+training,Fluctuating,1.0,mixed_without,single_without,loss_pct,-0.12466666666666663,-0.18133333333333326,-0.07000000000000002,-0.6679999999999999,0.3826666666666666
+training,Fluctuating,1.0,mixed_without,single_without,delivered_p95_ms,-6.8185172944444306,-7.73811451111111,-5.974188351527763,-19.508411518749867,9.382533413472228
+training,Fluctuating,1.0,mixed_with,mixed_without,on_time_pct,-0.04866666666666663,-0.07399999999999986,-0.025333333333333707,-0.2826666666666667,0.20933333333333323
+training,Fluctuating,1.0,mixed_with,mixed_without,important_on_time_pct,-0.03,-0.15,0.09,-0.42000000000000004,0.38
+training,Fluctuating,1.0,mixed_with,mixed_without,loss_pct,0.04066666666666663,0.02266666666666665,0.059999999999999984,-0.0060000000000000175,0.09601666666666642
+training,Fluctuating,1.0,mixed_with,mixed_without,delivered_p95_ms,-0.06058942222223715,-0.15559409527780357,0.02063427694441201,-1.6447217919444337,1.5085253250000201
+training,Fluctuating,1.25,single_with,single_without,on_time_pct,3.392,2.841983333333333,3.975383333333332,-2.3366999999999987,10.762666666666664
+training,Fluctuating,1.25,single_with,single_without,important_on_time_pct,2.5,1.75,3.2800000000000002,-2.98025,9.420249999999996
+training,Fluctuating,1.25,single_with,single_without,loss_pct,0.6073333333333333,0.5273333333333332,0.6900000000000001,0.17866666666666672,1.034716666666666
+training,Fluctuating,1.25,single_with,single_without,delivered_p95_ms,-28.596325577777765,-34.021177571388904,-23.58067164972219,-71.69491257486109,11.356108318611122
+training,Fluctuating,1.25,mixed_with,single_with,on_time_pct,1.478,1.2406666666666661,1.7140000000000009,-5.079516666666668,6.818099999999999
+training,Fluctuating,1.25,mixed_with,single_with,important_on_time_pct,2.44,1.7899999999999998,3.0800000000000005,-3.38,7.459999999999999
+training,Fluctuating,1.25,mixed_with,single_with,loss_pct,-0.64,-0.7326666666666666,-0.5513333333333332,-1.1180166666666664,-0.18200000000000008
+training,Fluctuating,1.25,mixed_with,single_with,delivered_p95_ms,2.9542066055555716,0.18829838500003504,5.920417272638918,-22.298368424583323,35.6986943248611
+training,Fluctuating,1.25,mixed_without,single_without,on_time_pct,4.856,4.413316666666667,5.314683333333333,-6.595416666666665,13.52345
+training,Fluctuating,1.25,mixed_without,single_without,important_on_time_pct,4.89,4.22,5.58,-5.3999999999999995,12.210249999999997
+training,Fluctuating,1.25,mixed_without,single_without,loss_pct,-0.06733333333333326,-0.13733333333333295,0.0020166666666666805,-1.0199999999999996,0.86
+training,Fluctuating,1.25,mixed_without,single_without,delivered_p95_ms,-25.330349733333314,-28.2289216704167,-22.62952279277775,-77.73387346847217,39.83708306152781
+training,Fluctuating,1.25,mixed_with,mixed_without,on_time_pct,0.014000000000000129,-0.030000000000000006,0.05933333333333365,-0.6206666666666667,0.6733333333333332
+training,Fluctuating,1.25,mixed_with,mixed_without,important_on_time_pct,0.05,-0.21000000000000002,0.31,-0.6000000000000001,0.7100000000000001
+training,Fluctuating,1.25,mixed_with,mixed_without,loss_pct,0.03466666666666662,-2.7755575615628914e-17,0.06933333333333323,-0.04999999999999995,0.12666666666666654
+training,Fluctuating,1.25,mixed_with,mixed_without,delivered_p95_ms,-0.31176923888888564,-0.6143774327777652,-0.05012581124995733,-9.963977996944474,9.10787938388887
+training,Stable,0.75,single_with,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,single_with,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,single_with,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,single_with,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,single_with,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,single_with,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,single_with,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,single_with,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_without,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_without,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_without,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_without,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,mixed_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,mixed_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,mixed_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,0.75,mixed_with,mixed_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,single_with,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,single_with,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,single_with,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,single_with,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,single_with,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,single_with,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,single_with,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,single_with,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_without,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_without,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_without,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_without,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,mixed_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,mixed_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,mixed_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.0,mixed_with,mixed_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,single_with,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,single_with,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,single_with,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,single_with,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,single_with,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,single_with,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,single_with,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,single_with,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_without,single_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_without,single_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_without,single_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_without,single_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,mixed_without,on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,mixed_without,important_on_time_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,mixed_without,loss_pct,0.0,0.0,0.0,0.0,0.0
+training,Stable,1.25,mixed_with,mixed_without,delivered_p95_ms,0.0,0.0,0.0,0.0,0.0
+training,Sudden drop,0.75,single_with,single_without,on_time_pct,-0.8520000000000001,-0.9046666666666667,-0.7986666666666665,-2.570000000000001,0.0
+training,Sudden drop,0.75,single_with,single_without,important_on_time_pct,-1.07,-1.3800000000000001,-0.75,-3.3,0.0
+training,Sudden drop,0.75,single_with,single_without,loss_pct,0.244,0.2206666666666667,0.2686666666666666,-0.036000000000000074,0.7700166666666671
+training,Sudden drop,0.75,single_with,single_without,delivered_p95_ms,4.47394942037039,4.222225476111116,4.719407441064831,-0.014848423888888615,13.507420842361167
+training,Sudden drop,0.75,mixed_with,single_with,on_time_pct,2.8153333333333337,2.752000000000001,2.8786666666666667,-0.002666666666666629,5.685333333333333
+training,Sudden drop,0.75,mixed_with,single_with,important_on_time_pct,2.76,2.2,3.3200000000000003,0.0,6.0
+training,Sudden drop,0.75,mixed_with,single_with,loss_pct,-0.9446666666666669,-0.9926666666666666,-0.8966666666666667,-1.9046833333333333,-0.02133333333333331
+training,Sudden drop,0.75,mixed_with,single_with,delivered_p95_ms,-10.378372175925977,-10.800062096203767,-9.94335714652784,-21.12169971319456,-0.03825536064813597
+training,Sudden drop,0.75,mixed_without,single_without,on_time_pct,1.962,1.8926666666666674,2.030666666666666,-1.7213333333333334,5.664
+training,Sudden drop,0.75,mixed_without,single_without,important_on_time_pct,2.03,1.52,2.54,-2.2600000000000002,6.4799999999999995
+training,Sudden drop,0.75,mixed_without,single_without,loss_pct,-0.6446666666666667,-0.6886666666666663,-0.6006666666666665,-1.8426833333333341,0.5360000000000003
+training,Sudden drop,0.75,mixed_without,single_without,delivered_p95_ms,-5.931732733333378,-6.20520753736115,-5.651283628009251,-21.035041855926078,9.012319657638896
+training,Sudden drop,0.75,mixed_with,mixed_without,on_time_pct,0.0013333333333332008,-0.049333333333333146,0.052000000000000345,-0.05866666666666731,0.06733333333333318
+training,Sudden drop,0.75,mixed_with,mixed_without,important_on_time_pct,-0.34,-0.78,0.08,-1.11,0.06
+training,Sudden drop,0.75,mixed_with,mixed_without,loss_pct,-0.056000000000000126,-0.10000000000000009,-0.012000000000000122,-0.12068333333333355,-0.005333333333333385
+training,Sudden drop,0.75,mixed_with,mixed_without,delivered_p95_ms,0.027309977777789127,-0.15048693185184958,0.2092376687037356,-0.17590292648147335,0.27727523328706216
+training,Sudden drop,1.0,single_with,single_without,on_time_pct,-0.7479999999999999,-0.8006666666666667,-0.6946666666666668,-2.3400166666666666,0.09001666666666652
+training,Sudden drop,1.0,single_with,single_without,important_on_time_pct,-1.05,-1.3599999999999999,-0.74,-3.5400000000000005,0.33
+training,Sudden drop,1.0,single_with,single_without,loss_pct,0.2953333333333334,0.2640000000000001,0.3266666666666666,-0.043333333333333356,0.93
+training,Sudden drop,1.0,single_with,single_without,delivered_p95_ms,3.2648094925925726,2.871723442453681,3.6527683290740476,-0.8262763312963158,10.646519432175847
+training,Sudden drop,1.0,mixed_with,single_with,on_time_pct,1.8946666666666663,1.817983333333332,1.9739999999999989,-0.011333333333333345,3.8759999999999986
+training,Sudden drop,1.0,mixed_with,single_with,important_on_time_pct,1.76,1.19,2.31,0.0,3.96
+training,Sudden drop,1.0,mixed_with,single_with,loss_pct,-0.6973333333333335,-0.756,-0.6406666666666668,-1.4253333333333331,-0.021333333333333284
+training,Sudden drop,1.0,mixed_with,single_with,delivered_p95_ms,-7.484250864814804,-8.064791668842561,-6.9062916529166465,-15.55319566648147,0.08020160587965511
+training,Sudden drop,1.0,mixed_without,single_without,on_time_pct,1.1079999999999999,1.0466666666666655,1.167999999999999,-1.5706999999999998,3.805383333333332
+training,Sudden drop,1.0,mixed_without,single_without,important_on_time_pct,0.71,0.2299999999999999,1.2,-2.7405000000000004,4.04
+training,Sudden drop,1.0,mixed_without,single_without,loss_pct,-0.31266666666666676,-0.35733333333333345,-0.26866666666666655,-1.274666666666667,0.6460000000000001
+training,Sudden drop,1.0,mixed_without,single_without,delivered_p95_ms,-4.304234337037035,-4.667353063981483,-3.952821887175966,-15.938983797731424,7.16139454712962
+training,Sudden drop,1.0,mixed_with,mixed_without,on_time_pct,0.03866666666666663,-0.031333333333332894,0.10668333333333335,-0.03933333333333303,0.13933333333333348
+training,Sudden drop,1.0,mixed_with,mixed_without,important_on_time_pct,0.0,-0.4800000000000001,0.49000000000000005,-0.6799999999999999,0.57
+training,Sudden drop,1.0,mixed_with,mixed_without,loss_pct,-0.08933333333333338,-0.14133333333333342,-0.033999999999999954,-0.1953333333333333,-0.016666666666666656
+training,Sudden drop,1.0,mixed_with,mixed_without,delivered_p95_ms,0.0847929648148035,-0.21010842287036377,0.3781771293980995,-0.41775664111110206,0.5754758084721628
+training,Sudden drop,1.25,single_with,single_without,on_time_pct,-0.7706666666666667,-0.8146666666666669,-0.7253166666666667,-2.332016666666667,0.01733333333333354
+training,Sudden drop,1.25,single_with,single_without,important_on_time_pct,-0.95,-1.25,-0.64,-2.9099999999999997,0.0
+training,Sudden drop,1.25,single_with,single_without,loss_pct,0.36666666666666675,0.3413333333333333,0.3913333333333333,0.0,1.1040000000000003
+training,Sudden drop,1.25,single_with,single_without,delivered_p95_ms,3.783399544444434,3.0671730030555633,4.481578536851831,-0.3814502800925905,11.840723791574058
+training,Sudden drop,1.25,mixed_with,single_with,on_time_pct,1.5833333333333335,1.506666666666667,1.6599999999999995,-0.015333333333333345,3.252
+training,Sudden drop,1.25,mixed_with,single_with,important_on_time_pct,0.86,0.27,1.44,0.0,2.22
+training,Sudden drop,1.25,mixed_with,single_with,loss_pct,-0.7573333333333334,-0.8066666666666666,-0.7053333333333336,-1.593333333333333,0.027999999999999924
+training,Sudden drop,1.25,mixed_with,single_with,delivered_p95_ms,-8.352327872222215,-9.741421703888852,-6.962757846990737,-17.78333543203698,-0.1204194723611264
+training,Sudden drop,1.25,mixed_without,single_without,on_time_pct,0.7206666666666668,0.6566499999999998,0.7866833333333337,-1.5986833333333332,3.0213666666666676
+training,Sudden drop,1.25,mixed_without,single_without,important_on_time_pct,-0.47,-0.9400000000000001,0.009999999999999964,-2.66,1.4
+training,Sudden drop,1.25,mixed_without,single_without,loss_pct,-0.2726666666666666,-0.3166666666666664,-0.23066666666666652,-1.3266666666666662,0.8000166666666666
+training,Sudden drop,1.25,mixed_without,single_without,delivered_p95_ms,-4.283845390740753,-5.050267899861151,-3.515399260740777,-16.734802143148165,8.111006277824048
+training,Sudden drop,1.25,mixed_with,mixed_without,on_time_pct,0.0919999999999997,0.03133333333333292,0.15133333333333293,-0.01866666666666674,0.2526666666666659
+training,Sudden drop,1.25,mixed_with,mixed_without,important_on_time_pct,0.38,-0.1,0.86,-0.09,1.2599999999999998
+training,Sudden drop,1.25,mixed_with,mixed_without,loss_pct,-0.11800000000000001,-0.16601666666666673,-0.06933333333333336,-0.28868333333333335,0.008000000000000014
+training,Sudden drop,1.25,mixed_with,mixed_without,delivered_p95_ms,-0.2850829370370267,-0.6550958711110627,0.07411759962962564,-1.1083329934258945,0.26748622796295324

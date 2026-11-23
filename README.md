@@ -122,3 +122,7 @@ Delay metrics describe delivered frames. On-time delivery and loss rates use all
 ## Reference
 
 Y. Zhang et al., “Real-Time Video Gets a Fast Lane via Smart Queue Flushing at the Wireless Edge,” IEEE INFOCOM, 2026. DOI 10.1109/INFOCOM59046.2026.11571420.
+
+### Bitrate robustness experiments
+
+The [bitrate experiments](experiments/bitrate/README.md) reproduce the high-load pilot, evaluate the archived agents on fresh traffic, and compare single-rate and mixed-rate training with independent training seeds.
